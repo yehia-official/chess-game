@@ -418,20 +418,3 @@ npm run build    # Build for production
 npm run start    # Start production server
 npm run lint     # Lint code
 ```
-
-### 📚 Complete Documentation
-
-For more information, see:
-
-- **[QUICK-START.md](./QUICK-START.md)** : Quick start guide
-- **[RULES.md](./RULES.md)** : All chess rules
-- **[PGN-NOTATION.md](./PGN-NOTATION.md)** : PGN format and algebraic notation
-- **[THEMES.md](./THEMES.md)** : Color themes guide
-
-### 📄 License
-
-This project is open source and available under the MIT license.
-
-### 👨‍💻 Author
-
-Developed with ❤️ using React and Next.js
