@@ -1,6 +1,6 @@
-# Jeu d'Échecs / Chess Game
+Chess Game
 
-**Français** | [English](#english-version)
+| [English](#english-version)
 
 ---
 
