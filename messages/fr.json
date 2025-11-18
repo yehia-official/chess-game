@@ -1,0 +1,262 @@
+{
+  "common": {
+    "chess": "Jeu d'Échecs",
+    "localGame": "Partie locale à deux joueurs",
+    "github": "GitHub",
+    "white": "Blancs",
+    "black": "Noirs",
+    "newGame": "Nouvelle Partie",
+    "startGame": "Lancer la partie",
+    "resign": "Abandonner",
+    "offerDraw": "Proposer Nulle",
+    "undo": "Annuler",
+    "redo": "Refaire"
+  },
+  "game": {
+    "info": "Informations de la partie",
+    "currentPlayer": "Joueur actuel",
+    "status": "Statut",
+    "playing": "En cours",
+    "check": "Échec !",
+    "checkmate": "Échec et mat !",
+    "stalemate": "Pat !",
+    "draw": "Match nul !",
+    "winner": "Vainqueur",
+    "whiteWins": "Les Blancs gagnent",
+    "blackWins": "Les Noirs gagnent",
+    "endReason": {
+      "checkmate": "Échec et mat",
+      "timeout": "Temps écoulé",
+      "resignation": "Abandon",
+      "draw": "Match nul par accord"
+    }
+  },
+  "clock": {
+    "title": "Horloge",
+    "timeControl": "Cadence"
+  },
+  "history": {
+    "title": "Historique des coups",
+    "noMoves": "Aucun coup joué"
+  },
+  "preferences": {
+    "title": "Préférences",
+    "theme": "Thème de l'échiquier",
+    "pieceStyle": "Style des pièces",
+    "coordinates": "Afficher les coordonnées",
+    "boardRotation": "Rotation de l'échiquier",
+    "rotateAfterMove": "Tourner après chaque coup",
+    "animationSpeed": "Vitesse d'animation",
+    "checkmateAnimation": "Animation d'échec et mat",
+    "instant": "Instantané",
+    "fast": "Rapide",
+    "normal": "Normal",
+    "slow": "Lent",
+    "sound": "Son",
+    "volume": "Volume",
+    "close": "Fermer",
+    "reset": "Réinitialiser",
+    "resetConfirm": "Réinitialiser tous les paramètres par défaut ?"
+  },
+  "theme": {
+    "title": "Choisir un thème de couleurs",
+    "description": "Sélectionnez une palette de couleurs pour personnaliser l'échiquier",
+    "buttonLabel": "Thème"
+  },
+  "pieceStyle": {
+    "title": "Choisir un style de pièces",
+    "description": "Sélectionnez un style pour personnaliser l'apparence des pièces",
+    "buttonLabel": "Style de pièces"
+  },
+  "controls": {
+    "exportPGN": "Exporter PGN",
+    "fullscreen": "Plein écran",
+    "preferences": "Préférences"
+  },
+  "timeControl": {
+    "title": "Type de partie",
+    "noTime": "Sans limite de temps",
+    "bullet": "Bullet",
+    "blitz": "Blitz",
+    "rapid": "Rapide",
+    "classical": "Classique",
+    "custom": "Personnalisé",
+    "minutes": "Minutes",
+    "increment": "Incrément (secondes)",
+    "cannotChange": "Impossible de changer la cadence pendant une partie",
+    "currently": "Actuellement",
+    "controls": {
+      "none": {
+        "name": "Sans limite",
+        "description": "Partie sans chronomètre"
+      },
+      "bullet1": {
+        "name": "Bullet",
+        "description": "1 minute par joueur"
+      },
+      "bullet1_1": {
+        "name": "Bullet 1+1",
+        "description": "1 min + 1 sec par coup"
+      },
+      "bullet2_1": {
+        "name": "Bullet 2+1",
+        "description": "2 min + 1 sec par coup"
+      },
+      "blitz3": {
+        "name": "Blitz",
+        "description": "3 minutes par joueur"
+      },
+      "blitz3_2": {
+        "name": "Blitz 3+2",
+        "description": "3 min + 2 sec par coup"
+      },
+      "blitz5": {
+        "name": "Blitz 5+0",
+        "description": "5 minutes par joueur"
+      },
+      "blitz5_3": {
+        "name": "Blitz 5+3",
+        "description": "5 min + 3 sec par coup"
+      },
+      "rapid10": {
+        "name": "Rapid 10+0",
+        "description": "10 minutes par joueur"
+      },
+      "rapid10_5": {
+        "name": "Rapid 10+5",
+        "description": "10 min + 5 sec par coup"
+      },
+      "rapid15_10": {
+        "name": "Rapid 15+10",
+        "description": "15 min + 10 sec par coup"
+      },
+      "rapid30": {
+        "name": "Rapid 30+0",
+        "description": "30 minutes par joueur"
+      },
+      "classical60": {
+        "name": "Classique 60+0",
+        "description": "60 minutes par joueur"
+      },
+      "classical90_30": {
+        "name": "Classique 90+30",
+        "description": "90 min + 30 sec par coup"
+      }
+    }
+  },
+  "promotion": {
+    "title": "Promotion du pion",
+    "selectPiece": "Sélectionnez une pièce pour la promotion :"
+  },
+  "export": {
+    "title": "Exporter la partie",
+    "description": "Exportez votre partie dans différents formats",
+    "eventLabel": "Événement",
+    "siteLabel": "Site",
+    "dateLabel": "Date",
+    "whiteLabel": "Joueur blanc",
+    "blackLabel": "Joueur noir",
+    "whiteEloLabel": "Elo Blanc",
+    "blackEloLabel": "Elo Noir",
+    "timeControlLabel": "Cadence",
+    "timeControlAutomatic": "La cadence est détectée automatiquement depuis les paramètres de la partie",
+    "resultLabel": "Résultat",
+    "copy": "Copier",
+    "download": "Télécharger",
+    "close": "Fermer",
+    "copied": "Copié !",
+    "exporting": "Export en cours...",
+    "formats": {
+      "image": "Image",
+      "pgn": "PGN",
+      "fen": "FEN",
+      "imageDescription": "Exportez la position actuelle de l'échiquier en image PNG haute qualité.",
+      "imageReady": "Prêt à exporter en PNG",
+      "pgnDescription": "Format standard FIDE pour enregistrer et partager des parties d'échecs.",
+      "fenDescription": "Notation Forsyth-Edwards - représente la position actuelle de l'échiquier.",
+      "fenNotation": "Notation FEN",
+      "fenInfo": "Utilisez cette notation pour charger la position dans d'autres applications d'échecs.",
+      "preview": "Aperçu"
+    }
+  },
+  "checkmate": {
+    "title": "Partie terminée !",
+    "whiteWins": "Les Blancs gagnent !",
+    "blackWins": "Les Noirs gagnent !",
+    "draw": "Match nul !",
+    "reason": {
+      "checkmate": "par échec et mat",
+      "timeout": "par temps écoulé",
+      "resignation": "par abandon",
+      "draw": "par accord"
+    },
+    "playAgain": "Rejouer"
+  },
+  "gameMode": {
+    "title": "Mode de jeu",
+    "subtitle": "Choisissez votre mode de jeu",
+    "pvp": "Joueur vs Joueur",
+    "pvpDescription": "Partie locale à deux joueurs",
+    "vsAI": "Joueur vs LN",
+    "vsAIDescription": "Jouer contre l'ordinateur",
+    "playerColor": "Votre couleur",
+    "playAsWhite": "Jouer Blancs",
+    "playAsBlack": "Jouer Noirs",
+    "cannotChangeDuringGame": "Impossible de changer le mode pendant une partie"
+  },
+  "aiDifficulty": {
+    "title": "Niveau de LN",
+    "subtitle": "Choisissez le niveau de difficulté",
+    "cannotChangeDuringGame": "Impossible de changer le niveau pendant une partie",
+    "levels": {
+      "400": "LN Débutant",
+      "800": "LN Amateur",
+      "1200": "LN Intermédiaire",
+      "1600": "LN Avancé",
+      "2000": "LN Expert",
+      "2500": "LN Maître"
+    }
+  },
+  "sound": {
+    "title": "Sons",
+    "enable": "Activer le son",
+    "disable": "Désactiver le son",
+    "volume": "Volume"
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Page non trouvée",
+    "message": "La page que vous recherchez n'existe pas.",
+    "returnHome": "Retour à l'accueil"
+  },
+  "gameVariant": {
+    "title": "Variante de jeu",
+    "subtitle": "Choisissez la variante d'échecs",
+    "standard": "Standard",
+    "standardDescription": "Échecs classiques",
+    "chess960": "Chess960",
+    "chess960Description": "Fischer Random Chess",
+    "chess960Info": "En Chess960, les pièces de la première rangée sont placées aléatoirement selon les règles FIDE. Le roi doit être entre les deux tours et les fous sur des cases de couleurs opposées. Le roque est possible avec les mêmes cases finales qu'aux échecs classiques.",
+    "cannotChangeDuringGame": "Impossible de changer la variante pendant une partie"
+  },
+  "dialog": {
+    "newGame": {
+      "title": "Commencer une nouvelle partie ?",
+      "description": "Cela réinitialisera la partie en cours. Cette action ne peut pas être annulée."
+    },
+    "resign": {
+      "title": "Abandonner la partie ?",
+      "descriptionWhite": "Les Blancs abandonnent. Les Noirs gagnent la partie.",
+      "descriptionBlack": "Les Noirs abandonnent. Les Blancs gagnent la partie."
+    },
+    "draw": {
+      "title": "Proposer une nulle ?",
+      "description": "Est-ce que les deux joueurs acceptent la nulle ?"
+    },
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "settings": "Paramètres"
+  }
+}

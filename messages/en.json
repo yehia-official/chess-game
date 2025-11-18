@@ -1,0 +1,262 @@
+{
+  "common": {
+    "chess": "Chess Game",
+    "localGame": "Local Two-Player Game",
+    "github": "GitHub",
+    "white": "White",
+    "black": "Black",
+    "newGame": "New Game",
+    "startGame": "Start Game",
+    "resign": "Resign",
+    "offerDraw": "Offer Draw",
+    "undo": "Undo",
+    "redo": "Redo"
+  },
+  "game": {
+    "info": "Game Information",
+    "currentPlayer": "Current Player",
+    "status": "Status",
+    "playing": "Playing",
+    "check": "Check!",
+    "checkmate": "Checkmate!",
+    "stalemate": "Stalemate!",
+    "draw": "Draw!",
+    "winner": "Winner",
+    "whiteWins": "White Wins",
+    "blackWins": "Black Wins",
+    "endReason": {
+      "checkmate": "Checkmate",
+      "timeout": "Time Out",
+      "resignation": "Resignation",
+      "draw": "Draw by Agreement"
+    }
+  },
+  "clock": {
+    "title": "Clock",
+    "timeControl": "Time Control"
+  },
+  "history": {
+    "title": "Move History",
+    "noMoves": "No moves yet"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "theme": "Board Theme",
+    "pieceStyle": "Piece Style",
+    "coordinates": "Show Coordinates",
+    "boardRotation": "Board Rotation",
+    "rotateAfterMove": "Rotate After Each Move",
+    "animationSpeed": "Animation Speed",
+    "checkmateAnimation": "Checkmate Animation",
+    "instant": "Instant",
+    "fast": "Fast",
+    "normal": "Normal",
+    "slow": "Slow",
+    "sound": "Sound",
+    "volume": "Volume",
+    "close": "Close",
+    "reset": "Reset",
+    "resetConfirm": "Reset all settings to default?"
+  },
+  "theme": {
+    "title": "Choose a Color Theme",
+    "description": "Select a color palette to customize the chessboard",
+    "buttonLabel": "Theme"
+  },
+  "pieceStyle": {
+    "title": "Choose a Piece Style",
+    "description": "Select a style to customize the appearance of pieces",
+    "buttonLabel": "Piece Style"
+  },
+  "controls": {
+    "exportPGN": "Export PGN",
+    "fullscreen": "Fullscreen",
+    "preferences": "Preferences"
+  },
+  "timeControl": {
+    "title": "Game Type",
+    "noTime": "No Time Limit",
+    "bullet": "Bullet",
+    "blitz": "Blitz",
+    "rapid": "Rapid",
+    "classical": "Classical",
+    "custom": "Custom",
+    "minutes": "Minutes",
+    "increment": "Increment (seconds)",
+    "cannotChange": "Cannot change time control during a game",
+    "currently": "Currently",
+    "controls": {
+      "none": {
+        "name": "No Limit",
+        "description": "Game without time limit"
+      },
+      "bullet1": {
+        "name": "Bullet",
+        "description": "1 minute per player"
+      },
+      "bullet1_1": {
+        "name": "Bullet 1+1",
+        "description": "1 min + 1 sec per move"
+      },
+      "bullet2_1": {
+        "name": "Bullet 2+1",
+        "description": "2 min + 1 sec per move"
+      },
+      "blitz3": {
+        "name": "Blitz",
+        "description": "3 minutes per player"
+      },
+      "blitz3_2": {
+        "name": "Blitz 3+2",
+        "description": "3 min + 2 sec per move"
+      },
+      "blitz5": {
+        "name": "Blitz 5+0",
+        "description": "5 minutes per player"
+      },
+      "blitz5_3": {
+        "name": "Blitz 5+3",
+        "description": "5 min + 3 sec per move"
+      },
+      "rapid10": {
+        "name": "Rapid 10+0",
+        "description": "10 minutes per player"
+      },
+      "rapid10_5": {
+        "name": "Rapid 10+5",
+        "description": "10 min + 5 sec per move"
+      },
+      "rapid15_10": {
+        "name": "Rapid 15+10",
+        "description": "15 min + 10 sec per move"
+      },
+      "rapid30": {
+        "name": "Rapid 30+0",
+        "description": "30 minutes per player"
+      },
+      "classical60": {
+        "name": "Classical 60+0",
+        "description": "60 minutes per player"
+      },
+      "classical90_30": {
+        "name": "Classical 90+30",
+        "description": "90 min + 30 sec per move"
+      }
+    }
+  },
+  "promotion": {
+    "title": "Promote Pawn",
+    "selectPiece": "Select a piece for promotion:"
+  },
+  "export": {
+    "title": "Export Game",
+    "description": "Export your game in different formats",
+    "eventLabel": "Event",
+    "siteLabel": "Site",
+    "dateLabel": "Date",
+    "whiteLabel": "White Player",
+    "blackLabel": "Black Player",
+    "whiteEloLabel": "White Elo",
+    "blackEloLabel": "Black Elo",
+    "timeControlLabel": "Time Control",
+    "timeControlAutomatic": "Time control is automatically detected from game settings",
+    "resultLabel": "Result",
+    "copy": "Copy",
+    "download": "Download",
+    "close": "Close",
+    "copied": "Copied!",
+    "exporting": "Exporting...",
+    "formats": {
+      "image": "Image",
+      "pgn": "PGN",
+      "fen": "FEN",
+      "imageDescription": "Export the current board position as a high-quality PNG image.",
+      "imageReady": "Ready to export as PNG",
+      "pgnDescription": "Standard FIDE format for recording and sharing chess games.",
+      "fenDescription": "Forsyth-Edwards Notation - represents the current board position.",
+      "fenNotation": "FEN Notation",
+      "fenInfo": "Use this notation to load the position in other chess applications.",
+      "preview": "Preview"
+    }
+  },
+  "checkmate": {
+    "title": "Game Over!",
+    "whiteWins": "White Wins!",
+    "blackWins": "Black Wins!",
+    "draw": "Draw!",
+    "reason": {
+      "checkmate": "by Checkmate",
+      "timeout": "by Time Out",
+      "resignation": "by Resignation",
+      "draw": "by Agreement"
+    },
+    "playAgain": "Play Again"
+  },
+  "gameMode": {
+    "title": "Game Mode",
+    "subtitle": "Choose your game mode",
+    "pvp": "Player vs Player",
+    "pvpDescription": "Local two-player game",
+    "vsAI": "Player vs LN",
+    "vsAIDescription": "Play against the computer",
+    "playerColor": "Your color",
+    "playAsWhite": "Play as White",
+    "playAsBlack": "Play as Black",
+    "cannotChangeDuringGame": "Cannot change mode during a game"
+  },
+  "aiDifficulty": {
+    "title": "LN Level",
+    "subtitle": "Choose the difficulty level",
+    "cannotChangeDuringGame": "Cannot change level during a game",
+    "levels": {
+      "400": "LN Beginner",
+      "800": "LN Amateur",
+      "1200": "LN Intermediate",
+      "1600": "LN Advanced",
+      "2000": "LN Expert",
+      "2500": "LN Master"
+    }
+  },
+  "sound": {
+    "title": "Sounds",
+    "enable": "Enable sound",
+    "disable": "Disable sound",
+    "volume": "Volume"
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Page Not Found",
+    "message": "The page you are looking for does not exist.",
+    "returnHome": "Return Home"
+  },
+  "gameVariant": {
+    "title": "Game Variant",
+    "subtitle": "Choose your chess variant",
+    "standard": "Standard",
+    "standardDescription": "Classical Chess",
+    "chess960": "Chess960",
+    "chess960Description": "Fischer Random Chess",
+    "chess960Info": "In Chess960, the back-rank pieces are placed randomly according to FIDE rules. The king must be between the two rooks and the bishops on opposite-colored squares. Castling is possible with the same final squares as in classical chess.",
+    "cannotChangeDuringGame": "Cannot change variant during a game"
+  },
+  "dialog": {
+    "newGame": {
+      "title": "Start a new game?",
+      "description": "This will reset the current game. This action cannot be undone."
+    },
+    "resign": {
+      "title": "Resign the game?",
+      "descriptionWhite": "White resigns. Black wins the game.",
+      "descriptionBlack": "Black resigns. White wins the game."
+    },
+    "draw": {
+      "title": "Offer a draw?",
+      "description": "Do both players accept the draw?"
+    },
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "accept": "Accept",
+    "decline": "Decline",
+    "settings": "Settings"
+  }
+}
